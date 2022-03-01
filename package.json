@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "scully": "npx scully --",
+    "scully:serve": "npx scully serve --"
   },
   "private": true,
   "dependencies": {
@@ -17,7 +19,12 @@
     "@angular/forms": "~13.2.0",
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
+    "@angular/platform-server": "^12",
     "@angular/router": "~13.2.0",
+    "@scullyio/init": "^3.0.0-beta.0",
+    "@scullyio/ng-lib": "^3.0.0-beta.0",
+    "@scullyio/platform-server": "^3.0.0-beta.0",
+    "@scullyio/scully": "^3.0.0-beta.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
