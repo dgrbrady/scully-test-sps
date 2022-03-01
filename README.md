@@ -76,6 +76,10 @@ npm ERR!     E:\nodejs\npm-cache\_logs\2022-03-01T15_45_16_992Z-debug-0.log
 ✖ Package install failed, see above.
 The Schematic workflow failed. See above.
 
+=============================================== EDITOR NOTE =======================================================
+node_modules and package-lock.json were deleted outside of the CLI, but were fully removed before this next command
+===================================================================================================================
+
 E:\code\scully-test-sps>npm i --legacy-peer-deps
 npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
 npm WARN deprecated @wessberg/ts-evaluator@0.0.27: this package has been renamed to ts-evaluator. Please install ts-evaluator instead
@@ -86,10 +90,6 @@ added 1055 packages, and audited 1056 packages in 1m
   run `npm fund` for details
 
 found 0 vulnerabilities
-
-=============================================== EDITOR NOTE =======================================================
-node_modules and package-lock.json were deleted outside of the CLI, but were fully removed before this next command
-===================================================================================================================
 
 E:\code\scully-test-sps>npm i @scullyio/scully@next @scullyio/platform-server@next @scullyio/ng-lib@next @scullyio/init@next --legacy-peer-deps
 
